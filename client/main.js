@@ -5,7 +5,7 @@ function startApp(){
 }
 
 function getData(){
-    json = 'getfood';
+    jsonFile = 'getfood';
     $.ajax({
         url: `../server/${jsonFile}.json`,
         method: 'GET',
